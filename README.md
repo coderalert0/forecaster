@@ -1,4 +1,6 @@
-# Weather Forecaster
+# Forecaster
+
+<img width="609" alt="Screenshot 2025-05-13 at 3 15 37 PM" src="https://github.com/user-attachments/assets/0ebee3e2-a0ea-452f-ab28-f2f275dec365" />
 
 A Ruby on Rails application that provides current weather information based on user-entered addresses.  
 The app uses the OpenWeather API to fetch weather data and caches results by zip code for improved performance.

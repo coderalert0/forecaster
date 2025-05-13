@@ -2,7 +2,7 @@ require "open-weather-ruby-client"
 
 class WeatherService
   def self.fetch(address)
-    # Geocode the address since OpenWeather does not support it
+    # Geocode the address since OpenWeather does not support geocoding
 
     results = Geocoder.search(address)
     raise "Address not found" if results.empty?
